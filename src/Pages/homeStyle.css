@@ -1,0 +1,56 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+#left-side-nav {
+    width: 50%;
+    margin-left: 50px;
+}
+
+#right-side-nav {
+    display: flex;
+}
+
+.list-nav {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-left: 50px;
+    font-size: large;
+}
+
+.item-nav {
+    margin-left: 50px;
+}
+
+#page-name {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#account h3 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    font-size: small;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;  
+    height: 150px;
+}
+
